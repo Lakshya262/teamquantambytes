@@ -1,8 +1,8 @@
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid rgb(141, 66, 66);
-    background-color: rgb(141, 66, 66);
+    border: 1px solid rgb(126, 130, 130);
+    background-color: rgb(126, 130, 130);
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -18,7 +18,7 @@
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: rgb(165, 136, 136);
+    background-color: white;
   }
   
   /* Create an active/current tablink class */
@@ -84,12 +84,12 @@ h2{
 }
 
 .tab:hover{
-    background-color: rgb(141, 80, 80);
+    background-color: rgb(187, 193, 193);
     color: black;
     transition: 0.6s ease;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pics/pexels-adrien-olichon-2387532.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pics/pexels-mudassir-ali-2680270.jpg);
     height: 200vh;
     background-size: cover;
     background-position: center;
@@ -113,13 +113,15 @@ ul{
     
 }
 .column{
-    background: rgb(141, 66, 66);
+    background: rgb(29, 33, 33);
     display: table-cell;
     padding: 10px;
     width: 33.33333%;
     text-align: center;
     vertical-align: middle;
-    border-right: 10px solid rgb(44, 40, 40);
-    border-left: 10px solid rgb(44, 40, 40);
+    border-right: 10px solid rgb(126, 130, 130);
+    border-left: 10px solid rgb(126, 130, 130);
+    border-top: 10px solid rgb(126, 130, 130);
+    border-bottom: 10px solid rgb(126, 130, 130);
 }
 
