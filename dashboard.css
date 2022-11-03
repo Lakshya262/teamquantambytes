@@ -1,8 +1,8 @@
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid rgb(141, 66, 66);
+    background-color: rgb(141, 66, 66);
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -18,7 +18,7 @@
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    background-color: #ddd;
+    background-color: rgb(165, 136, 136);
   }
   
   /* Create an active/current tablink class */
@@ -43,3 +43,83 @@
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+
+  body{
+    margin: 0;
+    padding: 0;
+}
+h1 a{
+   position: absolute;
+   top: 5%;
+   left: 7%;
+}
+h2{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+
+[data-tab-content]{
+    display: none;
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+
+.tabs{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.tab {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab:hover{
+    background-color: rgb(141, 80, 80);
+    color: black;
+    transition: 0.6s ease;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pics/pexels-adrien-olichon-2387532.jpg);
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+ul{
+    color: white;
+}
+.container{
+    width: 800px ;
+    margin: 50px auto 0;
+    display: table;
+    box-sizing: border-box;
+}
+.row{
+    margin: 10px 0;
+    
+    
+}
+.column{
+    background: rgb(141, 66, 66);
+    display: table-cell;
+    padding: 10px;
+    width: 33.33333%;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 10px solid rgb(44, 40, 40);
+    border-left: 10px solid rgb(44, 40, 40);
+}
+
