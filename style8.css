@@ -1,0 +1,46 @@
+#flex_detailes {
+    margin: 2% 31%;
+    padding: 30 58;
+    border-radius: 15%;
+    border: solid rgb(66, 66, 83);
+    border-width: 25px 15px 2px;
+    background-color: rgb(2, 47, 116);
+    width: 39vw;
+    height: 100vh;
+    display: flex;
+
+
+}
+body {
+    background-color: rgb(155, 155, 223);
+}
+
+#flex_detailes div {
+    font-size: large;
+
+}
+
+#detailes_box_2 {
+    display: block;
+    margin: 0% 31%;
+    padding: 10px auto 5% 20%;
+    color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+
+}
+
+.inputs {
+    width: 21vw;
+}
+
+#detailes {
+    text-align: left;
+
+}
