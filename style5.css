@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(157, 157, 236);
+    overflow: hidden;
+}
+.front{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    border-radius: 5%;
+    border: 8px solid rgb(21, 21, 153);
+    padding: 50px;
+}
+.row{
+    display: inline-flex;
+   padding: 2% 42%;
+
+}
+.row div {
+    font-size: larger;
+    font-weight: 600;
+    
+
+}
+    .row div a {
+        text-decoration: none;
+    }
+.Student{
+   display: flex;
+   
+}
+.Admin {
+    display: flex;
+   
+}
